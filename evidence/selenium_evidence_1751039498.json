@@ -1,0 +1,92 @@
+[
+  {
+    "test": "Dashboard Loading",
+    "status": "PASS",
+    "load_time": "0.09s",
+    "title": "\ud83d\udee1\ufe0f KDE Memory Guardian Dashboard",
+    "stat_cards_count": 4,
+    "screenshot": "dashboard_loaded_1751039463.png",
+    "timestamp": "2025-06-27 11:51:03"
+  },
+  {
+    "test": "Button Click: \ud83d\udd04 Refresh Stats",
+    "status": "PASS",
+    "screenshot": "button_click_0_1751039468.png",
+    "timestamp": "2025-06-27 11:51:08"
+  },
+  {
+    "test": "Button Click: \ud83d\udd04 Restart Plasma",
+    "status": "PASS",
+    "screenshot": "button_click_1_1751039471.png",
+    "timestamp": "2025-06-27 11:51:11"
+  },
+  {
+    "test": "Button Click: \ud83e\uddf9 Clear Cache",
+    "status": "PASS",
+    "screenshot": "button_click_2_1751039473.png",
+    "timestamp": "2025-06-27 11:51:14"
+  },
+  {
+    "test": "Button Click: \ud83d\udccb View Logs",
+    "status": "PASS",
+    "screenshot": "button_click_3_1751039476.png",
+    "timestamp": "2025-06-27 11:51:17"
+  },
+  {
+    "test": "Button Click: \ud83e\uddea Run Tests",
+    "status": "PASS",
+    "screenshot": "button_click_4_1751039479.png",
+    "timestamp": "2025-06-27 11:51:19"
+  },
+  {
+    "test": "API Endpoint: /api/stats",
+    "status": "PASS",
+    "details": "Valid JSON with keys: ['system_memory', 'plasma_memory', 'kwin_memory', 'timestamp']",
+    "screenshot": "api__api_stats_1751039483.png",
+    "timestamp": "2025-06-27 11:51:23"
+  },
+  {
+    "test": "API Endpoint: /api/logs",
+    "status": "PASS",
+    "details": "Valid JSON with keys: ['logs']",
+    "screenshot": "api__api_logs_1751039484.png",
+    "timestamp": "2025-06-27 11:51:24"
+  },
+  {
+    "test": "API Endpoint: /api/test",
+    "status": "PASS",
+    "details": "Valid JSON with keys: ['timestamp', 'tests']",
+    "screenshot": "api__api_test_1751039485.png",
+    "timestamp": "2025-06-27 11:51:25"
+  },
+  {
+    "test": "Real-time Update #1",
+    "status": "PASS",
+    "screenshot": "refresh_0_1751039490.png",
+    "timestamp": "2025-06-27 11:51:30"
+  },
+  {
+    "test": "Real-time Update #2",
+    "status": "PASS",
+    "screenshot": "refresh_1_1751039492.png",
+    "timestamp": "2025-06-27 11:51:32"
+  },
+  {
+    "test": "Real-time Update #3",
+    "status": "PASS",
+    "screenshot": "refresh_2_1751039494.png",
+    "timestamp": "2025-06-27 11:51:35"
+  },
+  {
+    "test": "Performance Testing",
+    "status": "PASS",
+    "load_times": [
+      0.041709184646606445,
+      0.044216156005859375,
+      0.048218727111816406
+    ],
+    "average_load_time": "0.04s",
+    "screenshot": "performance_final_1751039498.png",
+    "timestamp": "2025-06-27 11:51:38"
+  }
+]
